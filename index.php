@@ -34,7 +34,8 @@ $values = scandir($dir , SCANDIR_SORT_ASCENDING);
 echo "<ul>";
 foreach($values as $key => $val) {
 
-	if($val == "index.php"||$val == "." || $val == ".."||is_dir($val)||preg_match("/css$|js$|^template/", $val)) {
+	if($val == "index.php"||$val == "." || $val == ".."||is_dir($val)
+		||preg_match("/css$|js$|^template|md$/", $val)) {
 		continue;
 	}
 
@@ -61,7 +62,8 @@ $values = scandir($dir , SCANDIR_SORT_ASCENDING);
 echo "<ul>";
 foreach($values as $key => $val) {
 
-	if($val == "index.php"||$val == "." || $val == ".."||is_dir($val)||preg_match("/css$|js$|^template/", $val)) {
+	if($val == "index.php"||$val == "." || $val == ".."||is_dir($val)
+		||preg_match("/css$|js$|^template|md$/", $val)) {
 			continue;
 	}
 
@@ -101,7 +103,8 @@ $values = scandir($dir , SCANDIR_SORT_ASCENDING);
 echo "<ul>";
 foreach($values as $key => $val) {
 
-	if($val == "index.php"||$val == "." || $val == ".."||is_dir($val)||preg_match("/css$|js$|^template/", $val)) {
+	if($val == "index.php"||$val == "." || $val == ".."||is_dir($val)
+		||preg_match("/css$|js$|^template|md$/", $val)) {
 		continue;
 	}
 
@@ -127,7 +130,8 @@ $values = scandir($dir , SCANDIR_SORT_ASCENDING);
 echo "<ul>";
 foreach($values as $key => $val) {
 
-	if($val == "index.php"||$val == "." || $val == ".."||is_dir($val)||preg_match("/css$|js$|^template/", $val)) {
+	if($val == "index.php"||$val == "." || $val == ".."||is_dir($val)
+		||preg_match("/css$|js$|^template|md$/", $val)) {
 		continue;
 	}
 
