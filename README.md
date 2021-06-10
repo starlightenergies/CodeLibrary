@@ -5,7 +5,7 @@ to be a problem because they were not web-based in the IDE and categorization wa
 too simplified. So CodeLibrary will let the user:
 - displays code and snippets in a different screen from your IDE
 - see your code with syntax highlighting (uses Prism.js)
-- create a page of snippets with comments from a template (TODO)
+- create a page of snippets with comments from a template 
 - create a new page with an initial snippet (TODO)
 - add a snippet to an existing page (TODO)
 - upload html for inclusion in library (after converting html entities) (TODO)
@@ -44,7 +44,8 @@ data "[a-z0-9]".
 
 ## Requirements
 Its made to run using a webserver that uses the project root as its document root.
-in my setup I only use it internally, so setup a subdomain to IP map in hosts file.
+in my setup I only use it internally, so setup a subdomain to IP map in hosts file
+and restart the network connection, so it re-reads the host file.
 
 ## Attribution
 CodeLibrary uses Bootstrap and Prism without any modifications. Thats their software not ours and we don't
