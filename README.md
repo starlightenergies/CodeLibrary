@@ -15,7 +15,24 @@ too simplified. So CodeLibrary will let the user:
   - By #Link
   - By Technology (js, php, html, jquery, etc)
   - By Purpose (Ajax, Tutorial, Service, etc)
-- Auto creates links to the various snippets on home page  
+- Auto creates links to the various snippets on home page 
+
+## Usage
+The home page parses all other html files in the directory. No need for
+subdirectories. Parsing logic is as follows:
+### Home Page Category Creation
+  - "By File" column 
+      - lists all filenames and creates links to them
+  - "By Link" column 
+      - lists text in "a name=thistext" property and links to it
+  - "By Tech" column
+      - uses text in "class="xyztech" property and links to it
+  - "By Purpose" column
+      - uses text in "id=somepurpose" property and links to it
+
+The regex is currently only looking for property names with alphanumeric 
+data "[a-zO-9]". 
+ 
 
 ## Later On
 - Hopefully later on will tie the code library to a SQL server
