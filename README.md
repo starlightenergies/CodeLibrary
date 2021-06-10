@@ -1,8 +1,9 @@
 # CodeLibrary
 
-Just a simple web based code library for code samples. I found storing snippets
+CL is just a simple web based code library for code samples. I found storing snippets
 to be a problem because they were not web-based in the IDE and categorization was
 too simplified. So CodeLibrary will let the user:
+- displays code and snippets in a different screen from your IDE
 - see your code with syntax highlighting (uses Prism.js)
 - create a page of snippets with comments from a template (TODO)
 - create a new page with an initial snippet (TODO)
