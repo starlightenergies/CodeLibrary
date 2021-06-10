@@ -1,0 +1,119 @@
+/*
+
+.panel-default .panel-heading {
+	background: #444;
+	background: rgba(255, 255, 255, .1);
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+
+
+
+body {
+	background-color: #444;
+	background-image: url(../bg/blurred-background-4.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	font-family: 'Lato';
+	padding-top: 50px;
+	color: #fff;
+}
+
+
+table {
+	background: #003039;
+	font-weight: bold;
+	font-size: larger;
+}
+
+all custom stuff disabled for now
+
+
+*/
+
+/* animates the text and makes it blink */
+
+
+#blink {
+
+  animation: blinker 1s linear 10; /* 10 can be infinite too */
+
+}
+
+@keyframes blinker {
+  5% {
+    opacity: 0;
+  }
+}
+
+
+/* makes input fields a little spaced apart in a panel */
+.struct {
+
+	margin-bottom: 15px;
+	margin-left:5px;
+}
+
+
+.glossary a {
+
+	color: #ffab51;
+/*	font-size: larger; */
+
+}
+
+
+
+h1 {
+	font-weight: 100;
+	font-size: 52px;
+}
+
+
+.mymenu {
+	color: white;
+}
+
+a.label:hover,
+a.label:focus {
+  color: #7c387b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+td,th {
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+
+h1 {
+	font-weight: 90;
+	font-size: 70px;
+}
+
+
+p {
+	color: #fff;
+	font-size: 20px
+}
+
+
+.tdtext {
+
+	background-color: black;
+	color: white;
+	font-size: 20pt;
+
+
+
+}

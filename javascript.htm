@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript/JQuery</title>
+
+	 <!--code syntax highlighter files-->
+	<link href="/css/prism.css" rel="stylesheet" />
+	<script src="/js/prism.js"></script>
+
+
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/datepicker3.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/bootstrap-table.js"></script>
+
+	<style>
+
+		a { color: white; }
+
+	</style>
+
+</head>
+
+<body class="lang-js" style="font-size: 18px">
+
+<div class="navbar-fixed-top" style="background: #0cea1f">
+	<a class="navbar-btn pull-left" href="/" style="margin-left: 10px">Home</a>
+</div>
+
+<h3 align="center">Javascript/Jquery code</h3>
+
+<div style="margin-left: 25px" class ="col-md-9">
+
+<a name="jquerylib">JQuery code libraries</a>
+<pre>
+<code class="js" id="library">
+  //code to enable JQuery
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+</code>
+</pre>
+
+<a name="jquery1">JQuery code to run ajax methods every few seconds</a>
+<pre>
+<code class="js" id="setInterval">
+
+	$(function () {
+
+  	//runs when the page loads andevery 5 sec after that
+  	setInterval(newmine, 5000);
+  	setInterval(newmine2, 6000);
+
+  });
+</code>
+</pre>
+
+
+<a name="jsajaxfunc1">update statistic every few seconds, uses nette handle&lt;Signal&gt;</a>
+<pre>
+<code class="js" id="nette-ajax">
+
+	function newmine() {
+
+	var str = 1;
+		//send request with a 1, get back the payload...
+		url: $.getJSON({link query!}, { str: str }, function (payload) {
+			val = parseInt(payload.value);
+			$('#result').text(val);
+			$( '#progressbar' ).progressbar({
+				value: val
+			});
+		});
+	}
+</code>
+</pre>
+
+<a name="jsajaxfunc2">run ajax methods every few seconds, uses nette handle&lt;Signal&gt;</a>
+<pre>
+<code class="js" id="nette-ajax">
+	function newmine2() {
+
+		str = 2;
+		url: $.getJSON({link query2!}, { str: str }, function (payload) {
+			val = parseInt(payload.value);
+			$('#result2').text(val);
+			document.getElementById("head1").textContent = payload.snip;
+
+			$( '#progressbar2' ).progressbar({
+				value: val
+			});
+		});
+	}
+
+</code>
+</pre>
+
+<a name="jsRouter">attaches any event to all elements, then can fire methods with switch stmt</a>
+<pre>
+<code class="js" id="router">
+
+		window.onload = function () {
+
+			body.addEventListener('click', () => { myalert(); });
+		}
+
+		function myalert() {
+
+			//basically this is a router
+
+			switch (event.target.id) {
+
+				case 'add': alert("add button");break;
+				case 'edit': alert("edit button");break;
+				case 'delete': alert("delete button");break;
+				case 'undo': alert("undo button");break;
+				case 'store': alert("store button");break;
+				case 'share': alert("share button");break;
+				case 'done': alert("done button");break;
+				default:
+
+			}
+
+		}
+
+</code>
+</pre>
+
+
+
+
+</div>
+
+
+</body>
+</html>
