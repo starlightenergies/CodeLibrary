@@ -4,12 +4,12 @@ echo "<html><head>";
 
 ?>
 
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/datepicker3.css" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
 
 	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/bootstrap.js"></script>
 	<script src="/js/bootstrap-table.js"></script>
 </head>
 <body style="font-size: 18px">
@@ -72,7 +72,7 @@ foreach($values as $key => $val) {
 		while (!feof($fh)) {
 
 			$line = fgets($fh);
-			if(preg_match("/name=\"([a-z0-9]+)\".*$/i", $line,$matches)) {
+			if(preg_match("/data-name=\"([a-z0-9]+)\".*$/i", $line,$matches)) {
 
 				echo "<li><a href=/" . $val . "#" . $matches[1] . ">" . ucfirst($matches[1]) ."</a></li>\n";
 

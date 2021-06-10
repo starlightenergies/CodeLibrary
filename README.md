@@ -24,7 +24,7 @@ subdirectories. Parsing logic is as follows:
   - "By File" column 
       - lists all filenames and creates links to them
   - "By Link" column 
-      - lists text in "a name=thistext" property and links to it
+      - lists text in "a data-name=thistext" property and links to it
   - "By Tech" column
       - uses text in "class="xyztech" property and links to it
   - "By Purpose" column
