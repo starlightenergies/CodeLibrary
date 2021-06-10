@@ -17,7 +17,7 @@ echo "<html><head>";
 
 <div class="navbar-fixed-top" style="background: #0cea1f">
 	<a class="navbar-btn pull-left" href="/" style="margin-left: 10px" >Home</a>
-	<a class="navbar-btn pull-left" href="/" style="margin-left: 10px" >Clean</a>
+	<a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Create</a>
 </div>
 
 <h2 align="center">Code Library</h3>

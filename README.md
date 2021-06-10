@@ -6,7 +6,7 @@ too simplified. So CodeLibrary will let the user:
 - displays code and snippets in a different screen from your IDE
 - see your code with syntax highlighting (uses Prism.js)
 - create a page of snippets with comments from a template 
-- create a new page with an initial snippet (TODO)
+- create a new page with an initial snippet (INPROCESS)
 - add a snippet to an existing page (TODO)
 - upload html for inclusion in library (after converting html entities) (TODO)
 - show home page that automatically parses, categorizes and displays all existing and new html files in the directory

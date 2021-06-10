@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Snippet File</title>
+
+    <!--code syntax highlighter files-->
+    <link href="/css/prism.css" rel="stylesheet" />
+    <script src="/js/prism.js"></script>
+
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/datepicker3.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-table.js"></script>
+    <script src="codelibrary.js"></script>
+    <style>
+        a { color: white; }
+    </style>
+</head>
+
+<body  style="font-size: 18px">
+
+<div class="navbar-fixed-top" style="background: #0cea1f">
+    <a class="navbar-btn pull-left" href="/" style="margin-left: 10px" >Home</a>
+    <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Create</a>
+</div>
+
+
+<div class="row" id="file">
+    <div class="col-md-8">
+
+        <h3 style="align-content: center">Create Snippet Page</h3>
+        <div style="margin-bottom: 50px"></div>
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">Add Snippet</div>
+                <div class="panel-body">
+                    <form role="form" id="f2" name=addSnippetForm class=form action="process.php" method="post">
+                        <fieldset>
+                            <div class="form-group">
+                                <label style="margin-right: 50px">Page name:
+                                    <input class="form-control"  name="pagename" id="p1"
+                                           type="text" size=20 autofocus="">
+                                </label>
+                                <label style="margin-right: 50px">Link name:
+                                    <input class="form-control" size=20 name="linkname" id="p2"
+                                           type="text">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label style="margin-right: 50px">Tech type:
+                                    <input class="form-control" size=20 name="techtype" id="p3"
+                                           type="text">
+                                </label>
+                                <label style="margin-right: 50px">Purpose name:
+                                    <input class="form-control" name="purpose" id="p4" type="text" >
+                                </label>
+
+                                <label>Snippet language:
+                                <select class="form-control" name="lang" id="p5" style="color: black">
+                                    <option value="php">php</option>
+                                    <option value="html">html</option>
+                                    <option value="css">css</option>
+                                    <option value="js">javascript</option>
+                                    <option value="jq">jquery</option>
+                                    <option value="php">java</option>
+                                    <option value="c">c</option>
+                                    <option value="sql">sql</option>
+                                    <option value="bash">bash</option>
+                                    <option value="latte">latte</option>
+                                    <option value="apacheconf">apacheconf</option>
+                                </select>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>Snippet:
+                                    <textarea class="form-control" name="snippet" cols="50" rows="10" id="p6"></textarea>
+                                </label>
+                            </div>
+
+                        </fieldset>
+                        <fieldset>
+                            <input name=send class="btn btn-primary" type="submit">
+                            <input name=clear class="btn btn-success" type="reset">
+                        </fieldset>
+                    </form>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
