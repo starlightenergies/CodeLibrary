@@ -21,14 +21,14 @@ too simplified. So CodeLibrary will let the user:
 - Add a feature so people can contribute snippets to a shared library 
 
 ## Status
-Initial commit: 2021-06-10
-Last update: 2021-06-10
+- Initial commit: 2021-06-10
+- Last update: 2021-06-10
 
 ## Requirements
 Its made to run using a webserver that uses the project root as its document root.
 in my setup I only use it internally, so setup a subdomain to IP map in hosts file.
 
-##Attribution
+## Attribution
 CodeLibrary uses Bootstrap and Prism without any modifications. Thats their software not ours and we don't
 claim any hold on theirs whatsoever. As time permits, if necessary, more details will appear here and in the files
 so as to comply with their licenses.
