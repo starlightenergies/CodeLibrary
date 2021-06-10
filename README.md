@@ -31,7 +31,7 @@ subdirectories. Parsing logic is as follows:
       - uses text in "id=somepurpose" property and links to it
 
 The regex is currently only looking for property names with alphanumeric 
-data "[a-zO-9]". 
+data "[a-z0-9]". 
  
 
 ## Later On
