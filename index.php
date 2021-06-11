@@ -1,7 +1,6 @@
 <?php
-
 echo "<html><head>";
-
+//need to make sure all the scripts are getting imported correctly TODO
 ?>
 
 	<link href="/css/bootstrap.css" rel="stylesheet">
@@ -15,7 +14,7 @@ echo "<html><head>";
 <body style="font-size: 18px">
 
 
-<div class="navbar-fixed-top" style="background: #0cea1f">
+<div class="navbar-fixed-top" style="background: #753000" >
 	<a class="navbar-btn pull-left" href="/" style="margin-left: 10px" >Home</a>
 	<a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Create</a>
 </div>
@@ -145,5 +144,5 @@ echo "</ul>";
 	</div>
 </div>
 </body>
-</html>";
+</html>
 

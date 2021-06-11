@@ -7,4 +7,5 @@ window.onload = function () {
     document.getElementById('p4').title = "purpose (Ajax, Tutorial, Service, etc)";
     document.getElementById('p5').title = "see Prismjs.com for a full list of languages to use";
     document.getElementById('p6').title = "snippet gets placed in between pre and code tags";
+    document.getElementById('p7').title = "each code section has a title above it";
 }
