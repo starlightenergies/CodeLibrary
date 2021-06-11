@@ -22,12 +22,12 @@ echo "<html><head>";
 <div class="navbar-fixed-top" style="background: #753000" >
   <a class="navbar-btn pull-left" href="/" style="margin-left: 10px" >Home</a>
   <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Create</a>
-  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Append</a>
-  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Update</a>
-  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Archive</a>
-  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Filter</a>
-  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Link</a>
-  <a class="navbar-btn pull-right" href="/create.html" style="margin-right: 10px" >About</a>
+  <a class="navbar-btn pull-left" href="/todo.html" style="margin-left: 10px" >Append</a>
+  <a class="navbar-btn pull-left" href="/todo.html" style="margin-left: 10px" >Update</a>
+  <a class="navbar-btn pull-left" href="/todo.html" style="margin-left: 10px" >Archive</a>
+  <a class="navbar-btn pull-left" href="/todo.html" style="margin-left: 10px" >Filter</a>
+  <a class="navbar-btn pull-left" href="/todo.html" style="margin-left: 10px" >Link</a>
+  <a class="navbar-btn pull-right" href="/README.md" style="margin-right: 10px" >About</a>
 </div>
 
 <h2 align="center">Code Library</h3>
