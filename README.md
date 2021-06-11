@@ -41,6 +41,7 @@ data "[a-z0-9]".
 ## Status
 - Initial commit: 2021-06-10
 - Last update: 2021-06-10
+- Version: 0.1.0
 
 ## Requirements
 Its made to run using a webserver that uses the project root as its document root.
