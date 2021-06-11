@@ -26,7 +26,8 @@ $tech = $data['techtype'];
 $purpose = $data['purpose'];
 $lang = $data['lang'];
 $title = $data['title'];
-$snippet = $data['snippet'];
+$snippet = processSnippetInfo($data['snippet']);
+//need to use javascript to check if form field have info in before can submit TODO
 
 //copy template to new filename
 if(!file_exists($name)) {
@@ -64,4 +65,8 @@ if(is_resource($fh)) {
 fclose($fh);
 echo "<h3>File created and updated successfully</h3>\n";
 echo "<a href='/'>Home</a>\n";
+
+function processSnippetInfo($data) {
+	return htmlentities($data);
+}
 

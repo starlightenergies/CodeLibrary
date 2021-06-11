@@ -8,4 +8,19 @@ window.onload = function () {
     document.getElementById('p5').title = "see Prismjs.com for a full list of languages to use";
     document.getElementById('p6').title = "snippet gets placed in between pre and code tags";
     document.getElementById('p7').title = "each code section has a title above it";
+
+    let formobj = document.getElementById('p2');
+    formobj.addEventListener('focus',() => { autofiller(formobj); });
+}
+
+function autofiller(elt) {
+
+    let page = document.getElementById('p1');
+
+
+    switch (elt.id) {
+
+        case 'p2': elt.value = page.value;break;
+        default:
+    }
 }

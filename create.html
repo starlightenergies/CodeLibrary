@@ -27,21 +27,24 @@
 <div class="navbar-fixed-top" style="background: #753000" >
     <a class="navbar-btn pull-left" href="/" style="margin-left: 10px" >Home</a>
     <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Create</a>
+    <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Append</a>
 </div>
 
 
 <div class="row" id="file">
-    <div class="col-md-7">
+    <div class="col-md-7 col-md-offset-2" style="margin-top: 50px">
 
            <div class="login-panel panel panel-default">
                 <div class="panel-heading">Create Snippet</div>
                 <div class="panel-body">
                     <form role="form" id="f2" name=addSnippetForm class=form action="process.php" method="post">
                         <fieldset class="pull-right" style="margin-top: 20px">
+
                             <input name=send class="btn btn-primary" type="submit">
                             <input name=clear class="btn btn-success" type="reset">
                         </fieldset>
                         <fieldset>
+
                             <div class="form-group">
                                 <label style="margin-right: 50px">Page name:
                                     <input class="form-control"  name="pagename" id="p1"
@@ -63,8 +66,8 @@
                                 </label>
                             </div>
                             <div class="form-group">
-                                <label>Snippet language:
-                                <select class="form-control" name="lang" id="p5" style="color: black">
+                                <label style="margin-right: 50px">Snippet language:
+                                <select class="form-control" name="lang" id="p5" style="color: black" >
                                     <option value="js">php</option>
                                     <option value="html">html</option>
                                     <option value="css">css</option>
@@ -78,7 +81,7 @@
                                     <option value="apacheconf">apacheconf</option>
                                 </select>
                                 </label>
-                                <label style="margin-left: 105px">Snippet section title:
+                                <label style="margin-left: 85px">Snippet section title:
                                     <input class="form-control" name="title" id="p7" type="text" >
                                 </label>
                             </div>

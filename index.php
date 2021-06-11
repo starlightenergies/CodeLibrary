@@ -10,19 +10,30 @@ echo "<html><head>";
 	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="/js/bootstrap.js"></script>
 	<script src="/js/bootstrap-table.js"></script>
+
+    <style>
+        a { color: white; }
+    </style>
+
 </head>
 <body style="font-size: 18px">
 
 
 <div class="navbar-fixed-top" style="background: #753000" >
-	<a class="navbar-btn pull-left" href="/" style="margin-left: 10px" >Home</a>
-	<a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Create</a>
+  <a class="navbar-btn pull-left" href="/" style="margin-left: 10px" >Home</a>
+  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Create</a>
+  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Append</a>
+  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Update</a>
+  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Archive</a>
+  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Filter</a>
+  <a class="navbar-btn pull-left" href="/create.html" style="margin-left: 10px" >Link</a>
+  <a class="navbar-btn pull-right" href="/create.html" style="margin-right: 10px" >About</a>
 </div>
 
 <h2 align="center">Code Library</h3>
 
-<div class="row" id="file">
-	<div class="col-md-3">
+<div class="row" id="file" style="color: black">
+	<div class="col-md-3" style="color: black">
 		<h3 align="justify">By File</h3>
 
 <?php
